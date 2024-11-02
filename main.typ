@@ -16,20 +16,14 @@ online submission system, no later than the prespecified deadline. ],
   // bibliography: bibliography("refs.bib", full: false)
 )
 
-// ソースコードブロックを表示するためのパッケージ
-#import "@preview/sourcerer:0.2.1": code
-// #import "libs/sourcerer-0.2.1/src/lib.typ": code // 2.3.1 を参照
-
 // 定理環境
 #import "@preview/ctheorems:1.1.2": thmplain, thmproof, thmrules
-// #import "libs/ctheorems-1.1.2/lib.typ": thmplain, thmproof, thmrules  // 2.3.1 を参照
 #let thmjp = thmplain.with(base: {}, separator: [#h(0.5em)], titlefmt: strong, inset: (top: 0em, left: 0em))
 #let definition = thmjp("definition", text(font: gothic)[定義])
 #let lemma = thmjp("lemma",text(font: gothic)[補題])
 #let theorem = thmjp("theorem", text(font: gothic)[定理])
 #let corollary = thmjp("corollary",text(font: gothic)[系])
 #let proof = thmproof("proof", text(font: gothic)[証明], separator: [#h(0.9em)], titlefmt: strong, inset: (top: 0em, left: 0em))
-// Theorem environment
 #show: thmrules.with(qed-symbol: $square$)
 
 = はじめに
