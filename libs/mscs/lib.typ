@@ -1,5 +1,7 @@
 // Workaround for the lack of an `std` scope.
 #let std-bibliography = bibliography
+#let confname = "制御部門マルチシンポジウム"
+#let econfname = "Multi-Symposium on Control Systems"
 
 // Set the Fonts
 #let gothic = ("BIZ UDPGothic", "MS PGothic", "Hiragino Kaku Gothic Pro", "IPAexGothic", "Noto Sans CJK JP")
@@ -26,8 +28,7 @@
   )
   set text(size: 10pt, font: mincho)
   // show regex("[0-9a-zA-Z]"): set text(font: "New Computer Modern Math")
-  set par(leading: 0.55em, first-line-indent: 1em, justify: true)
-  show par: set block(spacing: 0.55em)
+  set par(leading: 0.55em, first-line-indent: 1em, justify: true, spacing: 0.55em)
 
   // Configure equation numbering and spacing.
   set math.equation(numbering: "(1)")
@@ -53,9 +54,9 @@
 
   // Configure headings.
   set heading(numbering: "1.")
-  show heading: it => locate(loc => {
+  show heading: it => {
     // Find out the final number of the heading counter.
-    let levels = counter(heading).at(loc)
+    let levels = counter(heading).get()
     let deepest = if levels != () {
       levels.last()
     } else {
@@ -73,12 +74,12 @@
         h(8pt, weak: true)
       }
       #it.body
-      #v(13.75pt, weak: true)
+      #v(8pt, weak: true)
     ] else [
       // The other level headings are run-ins.
       #set par(first-line-indent: 0pt)
       #set text(10pt, weight: 400)
-      #v(10pt, weak: true)
+      #v(8pt, weak: true)
       #if it.numbering != none {
         numbering("1.", ..levels)
         h(8pt, weak: true)
@@ -86,7 +87,7 @@
       #it.body
       #v(10pt, weak: true)
     ]
-  })
+  }
 
   // Configure figures.
   show figure.where(kind: table): set figure(placement: top, supplement: [Table])

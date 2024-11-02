@@ -1,13 +1,13 @@
-![Deploy workflow](https://github.com/kimushun1101/typst-jp-conf-template/actions/workflows/release.yml/badge.svg)
-![Deploy workflow](https://github.com/kimushun1101/typst-jp-conf-template/actions/workflows/gh-pages.yml/badge.svg)
+![Deploy workflow](https://github.com/kimushun1101/mscs2025-typst/actions/workflows/release.yml/badge.svg)
+![Deploy workflow](https://github.com/kimushun1101/mscs2025-typst/actions/workflows/gh-pages.yml/badge.svg)
 
-# typst-jp-conf-template
+# mscs2025-typst
 
-Typst で日本語論文を書くときのテンプレートです．
+[第12回 制御部門マルチシンポジウム](https://mscs2025.sice-ctrl.jp/)の原稿を Typst で書くときのテンプレートです．  
 Typst の概要について知りたい方は，https://github.com/kimushun1101/How-to-use-typst-for-paper-jp をご覧ください．
 
 
-[vscode-typst.webm](https://github.com/kimushun1101/typst-jp-conf-template/assets/13430937/f227b85b-0266-417b-a24a-54f28f9a71b8)
+[vscode-typst.webm](https://github.com/kimushun1101/mscs2025-typst/assets/13430937/f227b85b-0266-417b-a24a-54f28f9a71b8)
 
 
 | ファイル  | 意味                    |
@@ -23,7 +23,7 @@ Typst の概要について知りたい方は，https://github.com/kimushun1101/
 
 
 雰囲気を掴みたい場合には [こちらの Typst Web Application](https://typst.app/project/wXmeFlJ5bhx1awSRuJRiUf) をお試しください．  
-コンパイル済みの資料を確認したいだけでしたら [こちらの GitHub Pages](https://kimushun1101.github.io/typst-jp-conf-template/typst-jp-conf.pdf) からお読みできます．
+コンパイル済みの資料を確認したいだけでしたら [こちらの GitHub Pages](https://kimushun1101.github.io/mscs2025-typst/typst-jp-conf.pdf) からお読みできます．
 
 ## 使用方法
 GitHub に慣れていない方は，GitHub ページの `<>Code▼` から `Download ZIP` して展開してください．  
@@ -53,5 +53,5 @@ GitHub に慣れていない方は，GitHub ページの `<>Code▼` から `Dow
 
 ## ライセンス
 参考元にならってライセンスを付与しています．  
-Typst ファイル : MIT No Attribution  
+Typst ファイル : MIT No Attribution  (本文は学会のテンプレートを使用致しました．)
 CSL ファイル : Creative Commons Attribution-ShareAlike 3.0 License  

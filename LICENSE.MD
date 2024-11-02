@@ -1,6 +1,6 @@
 MIT No Attribution
 
-Copyright 2024 Shunsuke Kimura
+Copyright 2024 Shunsuke Kimura and 第12回 制御部門マルチシンポジウム実行委員会
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this
 software and associated documentation files (the "Software"), to deal in the Software
