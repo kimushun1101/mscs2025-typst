@@ -53,5 +53,5 @@ GitHub に慣れていない方は，GitHub ページの `<>Code▼` から `Dow
 
 ## ライセンス
 参考元にならってライセンスを付与しています．  
-Typst ファイル : MIT No Attribution  (本文は学会のテンプレートを使用致しました．)
+Typst ファイル : MIT No Attribution  (本文は学会のテンプレートを使用致しました．)  
 CSL ファイル : Creative Commons Attribution-ShareAlike 3.0 License  
