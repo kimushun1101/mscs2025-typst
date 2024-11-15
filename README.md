@@ -1,4 +1,4 @@
-![Deploy workflow](https://github.com/kimushun1101/mscs2025-typst/actions/workflows/release.yml/badge.svg)
+<!-- ![Deploy workflow](https://github.com/kimushun1101/mscs2025-typst/actions/workflows/release.yml/badge.svg) -->
 ![Deploy workflow](https://github.com/kimushun1101/mscs2025-typst/actions/workflows/gh-pages.yml/badge.svg)
 
 # mscs2025-typst
